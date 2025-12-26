@@ -1,7 +1,7 @@
 /* GENERAL STYLES */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fefbd8;
+    background-color: #f4f4f4; /* light gray for a neutral background */
     color: #333;
     margin: 0;
     padding: 0;
@@ -9,10 +9,10 @@ body {
 
 /* HEADER */
 header {
-    background-color: #f7c948;
+    background-color: #1a1a1a; /* dark gray */
     text-align: center;
     padding: 40px 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color: #ffffff; /* white text */
 }
 
 header h1 {
@@ -23,28 +23,32 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
+    color: #cccccc; /* softer subtitle */
 }
 
 /* HERO SECTION */
 section.hero {
-    background: linear-gradient(to right, #fff1b8, #f7c948);
+    background-color: #ffffff; /* clean white */
     text-align: center;
     padding: 80px 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 section.hero h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    color: #1a1a1a;
 }
 
 section.hero p {
     font-size: 1.1rem;
     max-width: 600px;
     margin: 0 auto 30px auto;
+    color: #555;
 }
 
 .hero a {
-    background-color: #333;
+    background-color: #0077cc; /* professional blue button */
     color: #fff;
     padding: 12px 30px;
     border-radius: 50px;
@@ -54,69 +58,75 @@ section.hero p {
 }
 
 .hero a:hover {
-    background-color: #555;
+    background-color: #005fa3;
 }
 
 /* SHOP SECTION */
 section.shop {
     padding: 80px 20px;
     text-align: center;
+    background-color: #f9f9f9;
 }
 
 section.shop h2 {
     font-size: 2.5rem;
     margin-bottom: 50px;
+    color: #1a1a1a;
 }
 
 /* PRODUCT CARDS */
 .product-card {
-    background-color: #fff;
-    border-radius: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
     padding: 20px;
-    box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
 .product-card img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-bottom: 15px;
 }
 
 .product-card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #1a1a1a;
 }
 
 .product-card p {
     margin-bottom: 15px;
     font-weight: bold;
+    color: #555;
 }
 
 .product-card button {
-    background-color: #f7c948;
+    background-color: #0077cc;
     border: none;
     padding: 10px 25px;
     border-radius: 50px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: #fff;
 }
 
 .product-card button:hover {
-    background-color: #ffda6a;
+    background-color: #005fa3;
 }
 
 /* CONTACT SECTION */
 section.contact {
-    background-color: #fefbd8;
+    background-color: #ffffff;
     padding: 80px 20px;
     text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 section.contact form {
@@ -129,29 +139,30 @@ section.contact textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 6px;
     border: 1px solid #ccc;
     font-size: 1rem;
 }
 
 section.contact button {
-    background-color: #f7c948;
+    background-color: #0077cc;
     border: none;
     padding: 12px 30px;
     border-radius: 50px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
+    color: #fff;
 }
 
 section.contact button:hover {
-    background-color: #ffda6a;
+    background-color: #005fa3;
 }
 
 /* FOOTER */
 footer {
-    background-color: #333;
-    color: #f7c948;
+    background-color: #1a1a1a;
+    color: #cccccc;
     text-align: center;
     padding: 30px 20px;
 }
